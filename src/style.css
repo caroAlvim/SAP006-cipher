@@ -1,1 +1,53 @@
 /* css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.present{
+    display: none;
+}
+
+.cifra{
+    display: none;
+}
+
+.titulo-principal{
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.form{
+    align-items: center;
+    margin: 40px 0;
+}
+
+.form-input{
+    align-items: center;
+    display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.form-button{
+    align-items: center;
+    width: 40%;
+	padding: 15px 0;
+	background: rgb(228, 191, 122);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s background;
+	cursor: pointer;
+}
+
+.form-button:hover {
+	background: rgb(223, 148, 58);
+    transform: scale(1.1);
+}
