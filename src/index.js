@@ -1,40 +1,51 @@
 import cipher from './cipher.js';
+//import { SourceCode } from 'eslint';
 
 console.log(cipher);
 
 
-const pegarTexto = (evento)=>{
+const cifraTexto = (evento)=>{
 
-    evento.preventDefault()
+    evento.preventDefault();
   
-    const textoUsuario =  document.querySelector('[data-form-input]')
-    const valor = textoUsuario.value 
-    
-    const fraseCifrada = document.querySelector('[data-cifra')
-    const conteudo = `<p class="content">${valor}</p>`
+    const textoUsuario =  document.querySelector('[data-form-input]');
+    const valor = textoUsuario.value;
+    //const textoUpper = valor.toUpperCase();
+
+    const desloc =  parseInt(prompt("Qual é a chave secreta?"));
+
+    const fraseCifrada = document.querySelector('[data-cifra]');
+    const conteudo = `<p class="content"> Mensagem:<br/><br/>${cipher.encode(desloc, valor)}</p>`;
   
-    fraseCifrada.innerHTML = conteudo
+    fraseCifrada.innerHTML = conteudo;
   
-    textoUsuario.value = " "
-  
+    textoUsuario.value = "";
+
 };
   
-const decifrarTexto = ()=>{
-  
-}
+const decifrarTexto = (evento)=> {
+    
+    evento.preventDefault();
 
-const cifra = document.querySelector('[data-form-button]')
-const decifra = document.querySelector('[data-form-decode]')
+    const decodeUsuario = document.querySelector('[data-form-input]');
+    const valorDecode = decodeUsuario.value;
+    //const decifraTexto = valorDecode.toUpperCase();
 
-cifra.addEventListener('click', pegarTexto)
-
-decifra.addEventListener('clck', decifrarTexto)
+    const desloc =  parseInt(prompt("Qual é a chave secreta?"));
 
 
-//let frase = prompt ("escreva aqui a sua msg para ser cifrada")
-//colocar toda a interação entre o js e html 
-// importar as funçoes
-//printar as msgs cifradas (domumentGetElement ?)
-// printar as msgs decifradas
+    const fraseDecifrada = document.querySelector('[data-cifra]');
+    const conteudo = `<p class="content"> Mensagem:<br/><br/>${cipher.decode(desloc, valorDecode)}</p>`;
 
-// manipulaçao de DOM
+    fraseDecifrada.innerHTML = conteudo;
+
+    decodeUsuario.value = "";
+    
+};
+
+const cifra = document.querySelector('[data-form-button]');
+const decifra = document.querySelector('[data-form-decode]');
+
+cifra.addEventListener('click', cifraTexto);
+
+decifra.addEventListener('click', decifrarTexto);

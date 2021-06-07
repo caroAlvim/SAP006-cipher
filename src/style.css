@@ -5,32 +5,53 @@
     box-sizing: border-box;
 }
 
-.present{
-    display: none;
+img{
+    width:900px;
+    height: 200px;
+    align-items: center;
+}
+body{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: #faf6f3; 
+    font: normal 20pt arial; 
 }
 
-.cifra{
-    display: none;
+header{
+    text-align: center;
+}
+
+section{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.content{
+    text-align: center;
 }
 
 .titulo-principal{
 	text-align: center;
 	font-size: 2em;
-	margin: 0 0 1em;
+	margin: 0 0 0em;
 	clear: left;
 }
 
 .form{
-    align-items: center;
+    text-align: center;
     margin: 40px 0;
 }
 
 .form-input{
-    align-items: center;
+    text-align: center;
     display: block;
-	margin: 0 0 20px;
-	padding: 10px 25px;
-	width: 50%;
+    margin: 0 0px 20px;
+	padding: 50px 25px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(31, 29, 29, 0.185);
 }
 
 .form-button{
@@ -44,10 +65,10 @@
 	border: none;
 	border-radius: 5px;
 	transition: 1s background;
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .form-button:hover {
 	background: rgb(223, 148, 58);
-    transform: scale(1.1);
+    transform: scale(1.05);
 }

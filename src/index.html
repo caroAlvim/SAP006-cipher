@@ -4,28 +4,33 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet"> 
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <div id="root">
-    <h1 class="titulo-principal">Saving Romeo & Juliet</h1>
+  <header> 
+    <h1 class="titulo-principal"> <img src="img/Logo2.png" alt="Saving Romeo and Juliet"> </h1>
+  </header>
+  <section>
+    <div class="msg">
+      <form class="form" action="">
+        <input class="form-input" type="text" data-form-input required placeholder="Sua mensagem a ser cifrada ou decifrada aqui">
+        <button class="form-button" data-form-button > Codificar </button>
+        <button class="form-button" data-form-decode > Decifrar </button>
+      </form>
+  
+  
+      <ul class="content" data-cifra="">
+        
+      </ul>
+    </div>
+  </section>
+  
+  <footer>
+    
 
-    <form class="form" action="">
-      <input class="form-input" type="text" data-form-input >
-      <button class="form-button" data-form-button > Codificar </button>
-      <button class="form-button" data-form-decode > Decifrar </button>
-    </form>
-
-
-    <ul class="content" data-cifra="">
-      
-    </ul>
-  </div>
-
+  </footer>
   <script src="index.js" type="module"></script>
 </body>
 
