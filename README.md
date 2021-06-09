@@ -35,7 +35,7 @@ A tecnologia evolue, mas os amores proibidos são eternos. E pensando em jovens 
 
 Romeos & Julietas, Julietas & Julietas e Romeos & Romeos estarão salvos.
 
-<p aligh=center>
+<p aligh="center">
 <img src=" https://media.giphy.com/media/PXVdhT6pJFfP2/source.gif">
 </p>
 
