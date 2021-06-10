@@ -1,9 +1,9 @@
 # Projeto Saving Romeo and Juliet
 
 Projeto para troca de mensagens secretas entre adolescentes, utilizando o método Cifra de César.
-. 
-Caesar cipher: encode and decode.
-.
+
+- Caesar cipher: encode and decode.
+
 
 ![saving-romeo-juliet](https://github.com/caroAlvim/SAP006-cipher/blob/357c63e6a9d11a8d7e7cfee5cf63ea453a59c92e/src/img/Logo2.png)
 
@@ -69,8 +69,8 @@ Jovens adolescentes que ainda vivem sob a tutela de familiares e que, por algum 
     Enviar a primeira palavra da mensagem com a quantidade de letras para o ciframento.
     Ex: Shakespeare (11 letras), chave número 11. 
     
-    > A mensagem: Shakespeare Hoje sonhei com vc
-    > Cifrada: Dslvpdaplcp Szup dzyspt nzx gn
+    **Mensagem**: Shakespeare Hoje sonhei com vc
+    **Cifrada**: Dslvpdaplcp Szup dzyspt nzx gn
 
 
 
@@ -82,12 +82,13 @@ A interface é minimalista, apresenta uma janela para adicionar o texto, dois bo
 
 ![tela-inicial](https://github.com/caroAlvim/SAP006-cipher/blob/main/src/img/tela%20inicial.png)
 
-![tela-mensagem]() **** adicionar print com mesnagem cifrada
+![tela-mensagem](https://github.com/caroAlvim/SAP006-cipher/blob/main/src/img/tela%20inicial%20com%20msg.png)
 
 * Botão de chave de deslocamento (offset)
 
 Botão modal "pop up" para capturar a chave de deslocamento para cifrar a mensagem. 
 
+![botao-modal](https://github.com/caroAlvim/SAP006-cipher/blob/main/src/img/botao-modal.png)
 
 * Logo
 
