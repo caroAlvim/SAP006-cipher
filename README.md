@@ -40,8 +40,14 @@ A tecnologia evolui, mas os amores proibidos são eternos. E pensando em jovens 
 
 Romeos & Julietas, Julietas & Julietas e Romeos & Romeos estarão salvos.
 
+<<<<<<< HEAD
 
 ![Romeo-Julieta](https://media.giphy.com/media/PXVdhT6pJFfP2/source.gif)
+=======
+<p aligh="center">
+<img src=" https://media.giphy.com/media/PXVdhT6pJFfP2/source.gif">
+</p>
+>>>>>>> 66542cecf52a6a168607ff9058da371bb772e665
 
 
 ## 4. Publico alvo:
