@@ -1,6 +1,8 @@
 # Projeto Saving Romeo and Juliet
 
-### Projeto para troca de mensagens secretas entre adolescentes, utilizando cifra de césar.
+Projeto para troca de mensagens secretas entre adolescentes, utilizando o método Cifra de César.
+. 
+Caesar cipher: encode and decode.
 .
 
 ![saving-romeo-juliet](https://github.com/caroAlvim/SAP006-cipher/blob/357c63e6a9d11a8d7e7cfee5cf63ea453a59c92e/src/img/Logo2.png)
@@ -21,7 +23,7 @@
 
 ## 1. Resumo do projeto
 
-"Saving Romeo & Juliet" é uma aplicação web para criptografar mensagens usando o método Cifra de César. Neste projeto, o usuário envia o texto e seleciona um número secreto para cifrá-lo. O número funciona como uma chave secreta que codifica e tambem permite decifrar. As mensagens são compartilhadas através de aplicativos de mensagens. 
+"Saving Romeo & Juliet" é uma aplicação web para criptografar mensagens usando o método Cifra de César. Neste projeto, o usuário envia o texto e seleciona um número secreto para cifrá-lo. O número funciona como uma chave secreta que codifica e  que também permite decifrar. As mensagens podem ser compartilhadas através de aplicativos de mensagens. 
 
 Primeiro projeto desenvolvido para o bootcamp **Laboratoria**.
 
@@ -35,11 +37,11 @@ Permitir a troca de mensagens criptografadas através de aplicativos de mensagen
 
 Por que "Salvando Romeo e Julieta"?
 
-Esta é a história de amor mais famosa da dramaturgia mundial. Romeo e Julieta são jovens apaixonados que devido a rivalidade entre suas familias, nao puderam vivenciar a plenitude do romance. Uma falha na comunicação entre o casal - uma carta extraviada -  fez com que conhecessem um trágico fim. 
+Esta é a história de amor mais famosa da dramaturgia mundial. Romeo e Julieta são jovens apaixonados que devido a rivalidade entre suas familias, não puderam vivenciar a plenitude do romance. Uma falha na comunicação entre o casal - uma carta extraviada -  fez com que conhecessem um trágico fim. 
 
 No mundo contemporâneo, a história do casal teria um final bem diferente. Uma ou duas mensagens enviadas através de aplicativos de comunicação teriam evitado este triste desfecho.
 
-A tecnologia evolui, mas os amores proibidos são eternos. E pensando em jovens adolescentes que nos dias atuais não podem desfrutar a liberdade no amor, seja impossibilitado por pais repressores, conservadores ou por julgamentos moralistas da sociedade, "Saving Romeo & Julieta" visa ajudar os casais apaixonados a trocarem mensagens criptografadas entre si e desta forma, evitar invasões indesejadas e espionagens nos apps de mensagens, garantido assim a privacidade na comunicação.
+A tecnologia evolui, mas os amores proibidos são eternos. E pensando em jovens adolescentes que nos dias atuais não podem desfrutar de liberdade para amar, seja impossibilitado por pais repressores, conservadores ou por julgamentos moralistas da sociedade, "Saving Romeo & Julieta" busca ajudar casais apaixonados a trocarem mensagens criptografadas entre si e desta forma, evitar invasões indesejadas e espionagens nos apps de mensagens, garantido assim a privacidade na comunicação.
 
 Romeos & Julietas, Julietas & Julietas e Romeos & Romeos estarão salvos.
 
@@ -50,7 +52,7 @@ Romeos & Julietas, Julietas & Julietas e Romeos & Romeos estarão salvos.
 
 ## 4. Publico alvo:
 
-Jovens adolescentes que ainda vivem sob a tutela de familiares e que, por algum motivo, não desfrutam de liberdade para amar. 
+Jovens adolescentes que ainda vivem sob a tutela de familiares e que, por algum motivo, não possuem total liberdade para expressarem-se. 
 
 > "Ninguém vai poder querer nos dizer como amar",
 > Jonnhy Hooker
@@ -64,8 +66,12 @@ Jovens adolescentes que ainda vivem sob a tutela de familiares e que, por algum 
 
 * Sugestão 2:
 
-    Enviar a primeira palavra da mensagem com a quantidade de letras para o ciframento. 
-    Ex: shakespeare (11 letras), chave número 11. 
+    Enviar a primeira palavra da mensagem com a quantidade de letras para o ciframento.
+    Ex: Shakespeare (11 letras), chave número 11. 
+    
+    > A mensagem: Shakespeare Hoje sonhei com vc
+    > Cifrada: Dslvpdaplcp Szup dzyspt nzx gn
+
 
 
 ## 6. UX/UI 
@@ -76,6 +82,7 @@ A interface é minimalista, apresenta uma janela para adicionar o texto, dois bo
 
 ![tela-inicial](https://github.com/caroAlvim/SAP006-cipher/blob/main/src/img/tela%20inicial.png)
 
+![tela-mensagem]() **** adicionar print com mesnagem cifrada
 
 * Botão de chave de deslocamento (offset)
 
@@ -85,6 +92,7 @@ Botão modal "pop up" para capturar a chave de deslocamento para cifrar a mensag
 * Logo
 
 Simulação de um balcão - momento importante na história de Romeo e Julieta. Para remeter ao balcão, foram adicionados personagens na parte superior do logo e outros na região inferior.
+A opção por personagens em 2D é decorrente da ideia de priorizar um efeito lúdico e descontraído. 
 
 ![saving-romeo-juliet](https://github.com/caroAlvim/SAP006-cipher/blob/main/src/img/Logo1.png)
 

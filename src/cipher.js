@@ -4,13 +4,13 @@ const cipher = {
 
   encode: function (offset, str) {
 
-    /*if (typeof offset !== "number") {
+    if (typeof offset !== "number") {
       throw TypeError("A chave precisa ser um número")
     }
 
     if (typeof str !== "string") {
       throw TypeError("A mensagem precisa ser um texto")
-    }*/
+    }
 
     let msgCifrada = "";
 
@@ -19,6 +19,7 @@ const cipher = {
       if (codifica >= 65 && codifica <= 90) {
         codifica = ((codifica - 65 + offset) % 26) + 65;
       }
+      //seleciona letras minusculas
       else if (codifica >= 97 && codifica <= 122) {
         codifica = ((codifica - 97 + offset) % 26) + 97;
       }
@@ -33,13 +34,13 @@ const cipher = {
   // função para decifrar 
   decode: function (offset, str) {
 
-    /*if (typeof offset !== "number") {
+    if (typeof offset !== "number") {
       throw TypeError("Chave precisa ser um número")
     }
 
     if (typeof str !== "string") {
       throw TypeError("A mensagem precisa ser um texto")
-    }*/
+    }
 
     let msgDecifrada = "";
 
