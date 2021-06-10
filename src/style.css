@@ -72,3 +72,61 @@ section{
 	background: rgb(223, 148, 58);
     transform: scale(1.05);
 }
+
+.modal-container{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, .5);
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container.mostrar{
+    display: flex;
+}
+
+.modal{
+    text-align: center;
+    font: normal 20pt arial;
+    background: white;
+    width: 30%;
+    min-width: 300px;
+    padding: 40px;
+    border: 10px solid #dbcbbe;
+    box-shadow: 0 0 0 10px white;
+    position: relative;
+}
+
+@keyframes modal{
+    from {
+        opacity: 0;
+        transform: translate3d(0,-60px, 0);
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.mostrar .modal{
+    animation: modal .3s;
+
+}
+.fechar{
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background: #dbcbbe;
+    color: white;
+    font: normal 15pt arial;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .3);
+}
