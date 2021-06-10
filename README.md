@@ -2,7 +2,9 @@
 
 Projeto para troca de mensagens secretas entre adolescentes, utilizando cifra de césar.
 
+
 ![saving-romeo-juliet](https://github.com/caroAlvim/SAP006-cipher/blob/357c63e6a9d11a8d7e7cfee5cf63ea453a59c92e/src/img/Logo2.png)
+
 
 ## Índice
 
@@ -20,7 +22,7 @@ Projeto para troca de mensagens secretas entre adolescentes, utilizando cifra de
 
 "Saving Romeo & Juliet" é uma aplicação web para criptografar mensagens usando o método Cifra de César. Neste projeto, o usuário envia o texto e seleciona um número secreto para cifrá-lo. O número funciona como uma chave secreta que codifica e tambem permite decifrar. As mensagens são compartilhadas através de aplicativos de mensagens. 
 
-Primeiro projeto desenvolvido para o bootcamp <Laboratoria>
+Primeiro projeto desenvolvido para o bootcamp **Laboratoria**.
 
 
 ## 2. Objetivo
@@ -40,14 +42,10 @@ A tecnologia evolui, mas os amores proibidos são eternos. E pensando em jovens 
 
 Romeos & Julietas, Julietas & Julietas e Romeos & Romeos estarão salvos.
 
-<<<<<<< HEAD
 
-![Romeo-Julieta](https://media.giphy.com/media/PXVdhT6pJFfP2/source.gif)
-=======
 <p aligh="center">
-<img src=" https://media.giphy.com/media/PXVdhT6pJFfP2/source.gif">
+![Romeo-Julieta](https://github.com/caroAlvim/SAP006-cipher/blob/main/src/img/romeo-julieta.gif)
 </p>
->>>>>>> 66542cecf52a6a168607ff9058da371bb772e665
 
 
 ## 4. Publico alvo:
@@ -72,20 +70,23 @@ Jovens adolescentes que ainda vivem sob a tutela de familiares e que, por algum 
 
 ## 6. UX/UI 
 
-* Interfaceexit
+* Interface
 
 A interface é minimalista, apresenta uma janela para adicionar o texto, dois botões - Codificar/Decifrar - e o logo.
+
+![tela-inicial](https://github.com/caroAlvim/SAP006-cipher/blob/main/src/img/tela%20inicial.png)
 
 
 * Botão de chave de deslocamento (offset)
 
 Botão modal "pop up" para capturar a chave de deslocamento para cifrar a mensagem. 
 
+
 * Logo
 
 Simulação de um balcão - momento importante na história de Romeo e Julieta. Para remeter ao balcão, foram adicionados personagens na parte superior do logo e outros na região inferior.
 
-![saving-romeo-juliet](https://github.com/caroAlvim/SAP006-cipher/blob/357c63e6a9d11a8d7e7cfee5cf63ea453a59c92e/src/img/Logo1.png)
+![saving-romeo-juliet](https://github.com/caroAlvim/SAP006-cipher/blob/main/src/img/Logo1.png)
 
 
 ## 7. Objetivos de aprendizagem
