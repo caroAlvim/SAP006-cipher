@@ -66,7 +66,7 @@ Jovens adolescentes que ainda vivem sob a tutela de familiares e que, por algum 
 
 ## 6. UX/UI 
 
-* Interface
+* Interfaceexit
 
 A interface é minimalista, apresenta uma janela para adicionar o texto, dois botões - Codificar/Decifrar - e o logo.
 
