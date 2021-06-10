@@ -1,9 +1,10 @@
 # Projeto Saving Romeo and Juliet
 
-Projeto para troca de mensagens secretas entre adolescentes, utilizando cifra de césar.
-
+### Projeto para troca de mensagens secretas entre adolescentes, utilizando cifra de césar.
+.
 
 ![saving-romeo-juliet](https://github.com/caroAlvim/SAP006-cipher/blob/357c63e6a9d11a8d7e7cfee5cf63ea453a59c92e/src/img/Logo2.png)
+
 
 
 ## Índice
@@ -38,14 +39,13 @@ Esta é a história de amor mais famosa da dramaturgia mundial. Romeo e Julieta 
 
 No mundo contemporâneo, a história do casal teria um final bem diferente. Uma ou duas mensagens enviadas através de aplicativos de comunicação teriam evitado este triste desfecho.
 
-A tecnologia evolui, mas os amores proibidos são eternos. E pensando em jovens adolescentes que nos dias atuais não podem desfrutar a liberdade no amor, seja impossibilitado por pais repressores, conservadores ou julgamentos moralistas da sociedade, "Saving Romeo & Julieta" visa ajudar os casais apaixonados a trocarem mensagens criptografadas entre si e desta forma, evitar invasões indesejadas e espionagens nos apps de mensagens, garantido assim a privacidade na comunicação.
+A tecnologia evolui, mas os amores proibidos são eternos. E pensando em jovens adolescentes que nos dias atuais não podem desfrutar a liberdade no amor, seja impossibilitado por pais repressores, conservadores ou por julgamentos moralistas da sociedade, "Saving Romeo & Julieta" visa ajudar os casais apaixonados a trocarem mensagens criptografadas entre si e desta forma, evitar invasões indesejadas e espionagens nos apps de mensagens, garantido assim a privacidade na comunicação.
 
 Romeos & Julietas, Julietas & Julietas e Romeos & Romeos estarão salvos.
 
 
-<p aligh="center">
 ![Romeo-Julieta](https://github.com/caroAlvim/SAP006-cipher/blob/main/src/img/romeo-julieta.gif)
-</p>
+
 
 
 ## 4. Publico alvo:
