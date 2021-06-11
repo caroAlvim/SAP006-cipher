@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="style.css">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header> 
+    <h1 class="titulo-principal"> <img src="img/Logo2.png" alt="Saving Romeo and Juliet"> </h1>
+  </header>
+  <section>
+    <div class="msg">
+      <form class="form" action="">
+        <input class="form-input" type="text" data-form-input required placeholder="Sua mensagem aqui...">
+        <button class="form-button" data-form-encode > Codificar </button>
+        <button class="form-button" data-form-decode > Decifrar </button>
+      </form>
+  
+  
+      <ul class="content" data-cifra="">
+        
+      </ul>
+    </div>
+  </section>
+
+  <div id="modal-desloc" class="modal-container"> 
+    <div class="modal"> 
+      <button class="fechar">x</button>
+      <h3 class="subtitulo-modal"> chave secreta </h3>
+      <form>
+        <p>
+          <input type="text" class="input-modal" data-input-num>
+        </p> 
+        <p> 
+          <button class="form-button" data-form-offset > Começar </button>
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    
+  </footer>
+
+  <script src="index.js" type="module"></script>
+
+</body>
+
+</html>
