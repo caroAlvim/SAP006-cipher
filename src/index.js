@@ -7,7 +7,6 @@ const cifraTexto = (evento) => {
     evento.preventDefault();
 
     //iniciaModal('modal-desloc');
-    
     //const desloc = pegarOffset()
 
     const textoUsuario =  document.querySelector('[data-form-input]');
@@ -29,14 +28,13 @@ const decifrarTexto = (evento) => {
     evento.preventDefault();
 
     //iniciaModal('modal-desloc');
+    //const desloc = pegarOffset();
 
     const decodeUsuario = document.querySelector('[data-form-input]');
     const valorDecode = decodeUsuario.value;
 
     const desloc =  parseInt(prompt("Qual é a chave secreta?"));
     
-    //const desloc = pegarOffset();
-
     const fraseDecifrada = document.querySelector('[data-cifra]');
     const conteudo = `<p class="content"> Mensagem:<br/><br/>${cipher.decode(desloc, valorDecode)}</p>`;
 
@@ -56,7 +54,6 @@ const pegarOffset = (evento) => {
     offsetUsuario.value = "";
 
     return valorOffset
-    
 }; 
 
 
@@ -80,13 +77,13 @@ const iniciaModal = (modalID) => {
             valorOffset.value = "";
         } 
             
-
             
-        return valorOffset = 33;
-     });  
+        return valorOffset;
+     });
+     
 
-};
-*/
+};*/
+
 
 const cifra = document.querySelector('[data-form-encode]');
 const decifra = document.querySelector('[data-form-decode]');

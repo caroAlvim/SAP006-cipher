@@ -34,14 +34,14 @@ describe('cipher', () => {
     it('should return "hijklmnopqrstuvwxyzabcdefg" for "abcdefghijklmnopqrstuvwxyz" with offset 33', () => {
       expect(cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz')).toBe('hijklmnopqrstuvwxyzabcdefg');
     });
-    /*
+    
 
     // Se quiser adicionar testes para caracteres não alfabéticos, descomente o
     // teste abaixo.
     //
     it('should return " !@" for " !@"', () => {
       expect(cipher.encode(33, ' !@')).toBe(' !@');
-    });*/
+    });
   });
   
 
@@ -73,13 +73,13 @@ describe('cipher', () => {
       expect(cipher.decode(33, 'hijklmnopqrstuvwxyzabcdefg')).toBe('abcdefghijklmnopqrstuvwxyz');
     });
 
-    /*
+    
     // Se quiser adicionar testes para caracteres não alfabéticos, descomente o
     // teste abaixo.
     //
     it('should return " !@" para " !@"', () => {
       expect(cipher.decode(33, ' !@')).toBe(' !@');
-    });*/
+    });
   });
 
 });

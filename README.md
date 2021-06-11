@@ -2,7 +2,6 @@
 
 Projeto para troca de mensagens secretas entre adolescentes, utilizando o método Cifra de César.
 
-- Caesar cipher: encode and decode.
 
 
 ![saving-romeo-juliet](https://github.com/caroAlvim/SAP006-cipher/blob/357c63e6a9d11a8d7e7cfee5cf63ea453a59c92e/src/img/Logo2.png)
@@ -69,14 +68,15 @@ Jovens adolescentes que ainda vivem sob a tutela de familiares e que, por algum 
     Enviar a primeira palavra da mensagem com a quantidade de letras para o ciframento.
     Ex: Shakespeare (11 letras), chave número 11. 
     
-    **Mensagem**: Shakespeare Hoje sonhei com vc
-    **Cifrada**: Dslvpdaplcp Szup dzyspt nzx gn
+**Mensagem**: Shakespeare Hoje sonhei com vc
+
+**Cifrada**: Dslvpdaplcp Szup dzyspt nzx gn
 
 
 
 ## 6. UX/UI 
 
-* Interface
+* **Interface**
 
 A interface é minimalista, apresenta uma janela para adicionar o texto, dois botões - Codificar/Decifrar - e o logo.
 
@@ -84,16 +84,16 @@ A interface é minimalista, apresenta uma janela para adicionar o texto, dois bo
 
 ![tela-mensagem](https://github.com/caroAlvim/SAP006-cipher/blob/main/src/img/tela%20inicial%20com%20msg.png)
 
-* Botão de chave de deslocamento (offset)
+* **Botão de chave de deslocamento (offset)**
 
 Botão modal "pop up" para capturar a chave de deslocamento para cifrar a mensagem. 
 
 ![botao-modal](https://github.com/caroAlvim/SAP006-cipher/blob/main/src/img/botao-modal.png)
 
-* Logo
+* **Logo**
 
 Simulação de um balcão - momento importante na história de Romeo e Julieta. Para remeter ao balcão, foram adicionados personagens na parte superior do logo e outros na região inferior.
-A opção por personagens em 2D é decorrente da ideia de priorizar um efeito lúdico e descontraído. 
+Utiliza-se personagens em 2D para criar efeito lúdico e descontraído. 
 
 ![saving-romeo-juliet](https://github.com/caroAlvim/SAP006-cipher/blob/main/src/img/Logo1.png)
 
