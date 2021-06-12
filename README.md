@@ -1,4 +1,4 @@
-# Projeto Saving Romeo and Juliet
+# Saving Romeo & Juliet
 
 Projeto para troca de mensagens secretas entre adolescentes, utilizando o método Cifra de César.
 
@@ -40,7 +40,7 @@ Esta é a história de amor mais famosa da dramaturgia mundial. Romeo e Julieta 
 
 No mundo contemporâneo, a história do casal teria um final bem diferente. Uma ou duas mensagens enviadas através de aplicativos de comunicação teriam evitado este triste desfecho.
 
-A tecnologia evolui, mas os amores proibidos são eternos. E pensando em jovens adolescentes que nos dias atuais não podem desfrutar de liberdade para amar, seja impossibilitado por pais repressores, conservadores ou por julgamentos moralistas da sociedade, "Saving Romeo & Julieta" busca ajudar casais apaixonados a trocarem mensagens criptografadas entre si e desta forma, evitar invasões indesejadas e espionagens nos apps de mensagens, garantido assim a privacidade na comunicação.
+A tecnologia evolui, mas os amores proibidos são eternos. E pensando em jovens adolescentes que nos dias atuais não podem desfrutar de liberdade para amar, seja impossibilitado por pais repressores, conservadores ou por julgamentos moralistas da sociedade, "Saving Romeo & Juliet" busca ajudar casais apaixonados a trocarem mensagens criptografadas entre si e desta forma, evitar invasões indesejadas e espionagens nos apps de mensagens, garantido assim a privacidade na comunicação.
 
 Romeos & Julietas, Julietas & Julietas e Romeos & Romeos estarão salvos.
 
@@ -100,50 +100,50 @@ Utiliza-se personagens em 2D para criar efeito lúdico e descontraído.
 
 ## 7. Objetivos de aprendizagem
 
-Neste projeto você aprenderá a construir uma aplicação web (_WebApp_) que irá
+Neste projeto o objeto é construir uma aplicação web (_WebApp_) para
 interagir com o usuário final através do navegador utilizando HTML, CSS e
 JavaScript como ferramentas.
 
 ### HTML e CSS
 
-* [ ] [Uso de HTML semântico.](https://developer.mozilla.org/pt-BR/docs/Glossario/Semantica#Sem%C3%A2ntica_em_HTML)
-* [ ] Uso de seletores de CSS.
+* [Uso de HTML semântico.](https://developer.mozilla.org/pt-BR/docs/Glossario/Semantica#Sem%C3%A2ntica_em_HTML)
+* Uso de seletores de CSS.
 
 ### DOM
 
-* [ ] Uso de seletores do DOM.
-* [ ] Manipular eventos do DOM.
-* [ ] [Manipulação dinâmica do DOM.](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
+* Uso de seletores do DOM.
+* Manipular eventos do DOM.
+* [Manipulação dinâmica do DOM.](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
 (appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
 
 ### JavaScript
 
-* [ ] Manipulação de strings.
-* [ ] Uso de condicionais (if-else | switch | operador ternário)
-* [ ] Uso de laços _(loops)_ (for | for..in | for..of | while)
-* [ ] Uso de funções (parâmetros | argumentos | valor de retorno)
-* [ ] Declaração correta de variáveis (const & let)
+* Manipulação de strings.
+* Uso de condicionais (if-else | switch | operador ternário)
+* Uso de laços _(loops)_ (for | for..in | for..of | while)
+* Uso de funções (parâmetros | argumentos | valor de retorno)
+* Declaração correta de variáveis (const & let)
 
 ### Testing
 
-* [ ] [Teste unitário.](https://jestjs.io/docs/pt-BR/getting-started)
+* [Teste unitário.](https://jestjs.io/docs/pt-BR/getting-started)
 
 ### Estrutura do código e guia de estilo
 
-* [ ] Organizar e dividir o código em módulos (Modularização)
-* [ ] Uso de identificadores descritivos (Nomenclatura | Semântica)
-* [ ] Uso de linter (ESLINT)
+* Organizar e dividir o código em módulos (Modularização)
+* Uso de identificadores descritivos (Nomenclatura | Semântica)
+* Uso de linter (ESLINT)
 
 ### Git e GitHub
 
-* [ ] Uso de comandos de git (add | commit | pull | status | push)
-* [ ] Gerenciamento de repositorios de GitHub (clone | fork | gh-pages)
+* Uso de comandos de git (add | commit | pull | status | push)
+* Gerenciamento de repositorios de GitHub (clone | fork | gh-pages)
 
 ### UX
 
-* [ ] Desenhar a aplicação pensando e entendendo o usuário.
-* [ ] Criar protótipos para obter feedback e iterar.
-* [ ] Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
+* Desenhar a aplicação pensando e entendendo o usuário.
+* Criar protótipos para obter feedback e iterar.
+* Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
 
 
 ## 8. Cifra de César
