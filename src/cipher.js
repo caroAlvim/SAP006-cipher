@@ -8,6 +8,10 @@ const cipher = {
       throw TypeError("A chave precisa ser um número")
     }
 
+    if (typeof str !== "string"){
+      throw TypeError("A chave precisa ser um texto")
+    }
+
 
     let msgCifrada = "";
 
@@ -35,6 +39,9 @@ const cipher = {
     if (typeof offset !== "number") {
       throw TypeError("Chave precisa ser um número")
     }
+    if (typeof str !== "string"){
+      throw TypeError("A chave precisa ser um texto")
+    }
 
     let msgDecifrada = "";
 
@@ -59,6 +66,5 @@ const cipher = {
   // Formula TecNoz ((codigoDaLetraASC - cod1Letra + deslocamento) % tamTotalAlfabeto) + cod1Letra
 
 };
-
 
 export default cipher;

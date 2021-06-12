@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="style.css">
-  <title>Caesar Cipher</title>
+  <title>Saving Romeo and Juliet</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -15,17 +15,18 @@
   <section>
     <div class="msg">
       <form class="form" action="">
-        <input class="form-input" type="text" data-form-input required placeholder="Sua mensagem aqui...">
+        <textarea class="form-input" id="text" cols="30" rows="5" data-form-input required placeholder ="Sua mensagem aqui..."></textarea>
         <button class="form-button" data-form-encode > Codificar </button>
         <button class="form-button" data-form-decode > Decifrar </button>
       </form>
   
   
-      <ul class="content" data-cifra="">
+      <ul class="content" data-cifra>
         
       </ul>
     </div>
   </section>
+
 
   <div id="modal-desloc" class="modal-container"> 
     <div class="modal"> 
@@ -33,7 +34,7 @@
       <h3 class="subtitulo-modal"> chave secreta </h3>
       <form>
         <p>
-          <input type="text" class="input-modal" data-input-num>
+          <input type="number" class="input-modal" data-input-num>
         </p> 
         <p> 
           <button class="form-button" data-form-offset > Começar </button>

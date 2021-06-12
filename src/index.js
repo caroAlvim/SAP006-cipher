@@ -7,7 +7,7 @@ const cifraTexto = (evento) => {
     evento.preventDefault();
 
     //iniciaModal('modal-desloc');
-    //const desloc = pegarOffset()
+
 
     const textoUsuario =  document.querySelector('[data-form-input]');
     const valor = textoUsuario.value;
@@ -16,7 +16,7 @@ const cifraTexto = (evento) => {
 
     const fraseCifrada = document.querySelector('[data-cifra]');
     const conteudo = `<p class="content"> Mensagem:<br/><br/>${cipher.encode(desloc, valor)}</p>`;
-  
+    
     fraseCifrada.innerHTML = conteudo;
   
     textoUsuario.value = "";
@@ -28,7 +28,6 @@ const decifrarTexto = (evento) => {
     evento.preventDefault();
 
     //iniciaModal('modal-desloc');
-    //const desloc = pegarOffset();
 
     const decodeUsuario = document.querySelector('[data-form-input]');
     const valorDecode = decodeUsuario.value;
@@ -43,6 +42,7 @@ const decifrarTexto = (evento) => {
     decodeUsuario.value = "";
     
 };
+
 /*
 const pegarOffset = (evento) => {
     
@@ -53,7 +53,7 @@ const pegarOffset = (evento) => {
 
     offsetUsuario.value = "";
 
-    return valorOffset
+    return valorOffset;
 }; 
 
 
@@ -65,32 +65,22 @@ const iniciaModal = (modalID) => {
     modal.addEventListener('click', (evento) => {
         if(evento.target.id == modalID || evento.target.className == 'fechar'){
             modal.classList.remove('mostrar');
-        }
-        else if(evento.target.className == 'form-button') {
-            
-            evento.preventDefault();
-            modal.classList.remove('mostrar');
-
-            const chave = document.querySelector('[data-form-offset]')
-            const valorOffset = chave.value;
-
-            valorOffset.value = "";
         } 
-            
-            
-        return valorOffset;
-     });
-     
+        else if(offset.addEventListener('click', pegarOffset) === True) {
+            modal.classList.remove('mostrar');
+        }
+    }); 
 
-};*/
-
+};
+*/
 
 const cifra = document.querySelector('[data-form-encode]');
 const decifra = document.querySelector('[data-form-decode]');
-//const offset = document.querySelector('[data-form-offset]')
 
+//const offset = document.querySelector('[data-form-offset]')
 
 cifra.addEventListener('click', cifraTexto);
 decifra.addEventListener('click', decifrarTexto);
+
 //offset.addEventListener('click', pegarOffset);
 

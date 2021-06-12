@@ -30,6 +30,8 @@ section{
 
 .content{
     text-align: center;
+    word-wrap: break-word;
+    height: 80px;
 }
 
 .titulo-principal{
@@ -45,10 +47,11 @@ section{
 }
 
 .form-input{
-    text-align: center;
+    text-align: left;
     display: block;
+    font: normal 15pt arial;
     margin: 0 0px 20px;
-	padding: 50px 25px;
+	padding: 10px 20px;
     width: 100%;
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(31, 29, 29, 0.185);
@@ -145,3 +148,4 @@ section{
     cursor: pointer;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .3);
 }
+
