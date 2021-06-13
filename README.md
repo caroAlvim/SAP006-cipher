@@ -70,7 +70,7 @@ Jovens adolescentes que ainda vivem sob a tutela de familiares e que, por algum 
     
 **Mensagem**: Shakespeare Hoje sonhei com vc
 
-**Cifrada**: Dslvpdaplcp Szup dzyspt nzx gn
+**Cifrada**: Dslvpdaplcp+Szup+dzyspt+nzx+gn
 
 
 
@@ -78,7 +78,7 @@ Jovens adolescentes que ainda vivem sob a tutela de familiares e que, por algum 
 
 * **Interface**
 
-A interface é minimalista, apresenta uma janela para adicionar o texto, dois botões - Codificar/Decifrar - e o logo.
+A interface é minimalista, apresenta uma janela para adicionar o texto, botão de apresentação, dois botões - Codificar/Decifrar - e o logo.
 
 ![tela-inicial](https://github.com/caroAlvim/SAP006-cipher/blob/main/src/img/tela%20inicial.png)
 

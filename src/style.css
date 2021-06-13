@@ -57,6 +57,7 @@ section{
     box-shadow: 5px 5px 10px rgba(31, 29, 29, 0.185);
 }
 
+
 .form-modal{
     text-align: center;
     display: block;
@@ -70,6 +71,19 @@ section{
     margin-bottom: 15px;
     border-radius: 5px;
     box-shadow: 3px 3px 10px rgba(31, 29, 29, 0.185);
+}
+
+.info-button{
+    padding: 15px 0;
+    width: 5%;
+    background: rgb(228, 191, 122);
+    color: white; 
+    font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s background;
+    cursor: pointer;
 }
 
 .form-button{
@@ -88,6 +102,10 @@ section{
 
 .form-button:hover {
 	background: rgb(223, 148, 58);
+    transform: scale(1.05);
+}
+.info-button:hover{
+    background: rgb(223, 148, 58);
     transform: scale(1.05);
 }
 
@@ -109,10 +127,10 @@ section{
 }
 
 .modal{
-    text-align: center;
-    font: normal 20pt arial;
+    text-align: justify;
+    font: normal 15pt arial;
     background: white;
-    width: 30%;
+    width: 60%;
     min-width: 300px;
     padding: 40px;
     border: 10px solid #dbcbbe;

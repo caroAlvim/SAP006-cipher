@@ -43,6 +43,28 @@ const decifrarTexto = (evento) => {
     
 };
 
+const informaTexto = (evento) => {
+
+    evento.preventDefault();
+    
+    iniciaModal('modal-desloc');
+};
+    
+
+const iniciaModal = (modalID) => {
+
+    const modal = document.getElementById(modalID);
+    modal.classList.add('mostrar');
+
+    modal.addEventListener('click', (evento) => {
+        if(evento.target.id == modalID || evento.target.className == 'fechar'){
+            modal.classList.remove('mostrar');
+        } 
+        
+    }); 
+
+};
+
 /*
 const pegarOffset = (evento) => {
     
@@ -55,32 +77,17 @@ const pegarOffset = (evento) => {
 
     return valorOffset;
 }; 
-
-
-const iniciaModal = (modalID) => {
-
-    const modal = document.getElementById(modalID);
-    modal.classList.add('mostrar');
-
-    modal.addEventListener('click', (evento) => {
-        if(evento.target.id == modalID || evento.target.className == 'fechar'){
-            modal.classList.remove('mostrar');
-        } 
-        else if(offset.addEventListener('click', pegarOffset) === True) {
-            modal.classList.remove('mostrar');
-        }
-    }); 
-
-};
 */
 
 const cifra = document.querySelector('[data-form-encode]');
 const decifra = document.querySelector('[data-form-decode]');
+const sobre = document.querySelector('[data-form-info]');
 
 //const offset = document.querySelector('[data-form-offset]')
 
 cifra.addEventListener('click', cifraTexto);
 decifra.addEventListener('click', decifrarTexto);
+sobre.addEventListener('click', informaTexto);
 
 //offset.addEventListener('click', pegarOffset);
 
