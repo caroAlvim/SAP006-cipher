@@ -80,15 +80,18 @@ Jovens adolescentes que ainda vivem sob a tutela de familiares e que, por algum 
 
 A interface é minimalista, apresenta uma janela para adicionar o texto, botão de apresentação, dois botões - Codificar/Decifrar - e o logo.
 
-![tela-inicial](https://github.com/caroAlvim/SAP006-cipher/blob/main/src/img/tela%20inicial.png)
+![tela-inicial](https://github.com/caroAlvim/SAP006-cipher/blob/main/src/img/tela-inicial.png)
 
-![tela-mensagem](https://github.com/caroAlvim/SAP006-cipher/blob/main/src/img/tela%20inicial%20com%20msg.png)
+![tela-mensagem](https://github.com/caroAlvim/SAP006-cipher/blob/main/src/img/tela-msg.png)
+
+![tela-cripto](https://github.com/caroAlvim/SAP006-cipher/blob/main/src/img/tela-cripto.png)
 
 * **Botão de chave de deslocamento (offset)**
 
-Botão modal "pop up" para capturar a chave de deslocamento para cifrar a mensagem. 
+Botão modal "pop up" para apresentação - "sobre". 
 
-![botao-modal](https://github.com/caroAlvim/SAP006-cipher/blob/main/src/img/botao-modal.png)
+![tela-sobre](https://github.com/caroAlvim/SAP006-cipher/blob/main/src/img/tela%20sobre.png)
+
 
 * **Logo**
 
