@@ -1,7 +1,7 @@
 # Saving Romeo & Juliet
 
 Projeto para troca de mensagens secretas entre adolescentes, utilizando o método Cifra de César.
-.
+
 Para visualizar a página, acesse [aqui.](https://caroalvim.github.io/SAP006-cipher/)
 
 
@@ -38,9 +38,9 @@ Permitir a troca de mensagens criptografadas através de aplicativos de mensagen
 
 Por que "Salvando Romeo e Julieta"?
 
-Esta é a história de amor mais famosa da dramaturgia mundial. Romeo e Julieta são jovens apaixonados que devido a rivalidade entre suas familias, não puderam vivenciar a plenitude do romance. Uma falha na comunicação entre o casal - uma carta extraviada -  fez com que conhecessem um trágico fim. 
+Esta é a história de amor mais famosa da dramaturgia mundial. Romeo e Julieta são jovens apaixonados que devido a rivalidade entre suas familias, não puderam vivenciar a plenitude do romance. Uma falha na comunicação entre o casal - uma carta extraviada -  fez com que vivenciassem um triste fim. 
 
-No mundo contemporâneo, a história do casal teria um final bem diferente. Uma ou duas mensagens enviadas através de aplicativos de comunicação teriam evitado este trágico desfecho.
+No mundo contemporâneo, a história do casal teria um final bem diferente. Uma ou duas mensagens enviadas através de aplicativos de comunicação teriam evitado o trágico desfecho.
 
 A tecnologia evolui, mas os amores proibidos são eternos. E pensando em jovens adolescentes que nos dias atuais não podem desfrutar de liberdade para amar, seja impossibilitado por familiares repressores, conservadores ou por julgamentos moralistas da sociedade, "Saving Romeo & Juliet" busca ajudar casais apaixonados a trocarem mensagens criptografadas entre si e desta forma, evitar invasões indesejadas e espionagens nos apps de mensagens, garantido assim a privacidade na comunicação.
 
