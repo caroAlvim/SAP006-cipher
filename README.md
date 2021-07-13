@@ -47,8 +47,8 @@ A tecnologia evolui, mas os amores proibidos são eternos. E pensando em jovens 
 Romeos & Julietas, Julietas & Julietas e Romeos & Romeos estarão salvos.
 
 
-![Romeo-Julieta](https://github.com/caroAlvim/SAP006-cipher/blob/main/src/img/romeo-julieta.gif)
 
+<img align="center" src="img/romeo-julieta.gif" width="300"/>
 
 
 ## 4. Publico alvo:
