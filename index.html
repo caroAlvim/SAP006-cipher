@@ -1,45 +1,58 @@
 <!DOCTYPE html>
-<!-- https://github.com/caroAlvim/SAP006-cipher 
+<!-- Curious about the inner workings?  https://github.com/caroAlvim/SAP006-cipher 
   -->
 <html>
+
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Saving Romeo and Juliet</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-  
 </head>
 
 <body>
-  <header> 
-    <h1 class="titulo-principal"> <img src="img/Logo2.png" alt="Saving Romeo and Juliet"> </h1>
+
+  <header class="titulo-principal">
+
+    <img class="img" src="img/Logo2.png" alt="Logo Saving Romeo and Juliet">
+
   </header>
-  <section>
-    <div class="msg">
-      
-      <form class="form" action="">
-        <textarea class="form-input" id="text" cols="30" rows="5" data-form-input required placeholder ="Sua mensagem aqui..."></textarea>
-        <button class="info-button" data-form-info > ? </button>
-        <button class="form-button" data-form-encode > Codificar </button>
-        <button class="form-button" data-form-decode > Decifrar </button>
-      </form>
-  
-      
-      <ul class="content" data-cifra>
-        
-      </ul>
-    </div>
-  </section>
+
+  <main>
+    <section class="flex-container">
+      <div class="msg">
+
+        <form class="form" action="">
+          <textarea class="form-input" id="text" cols="30" rows="5" data-form-input required required
+            placeholder="Sua mensagem aqui..."></textarea>
+        </form>
+
+        <div class="form">
+          <button class="info-button" data-form-info> ? </button>
+          <button class="form-button" data-form-encode> Codificar </button>
+          <button class="form-button" data-form-decode> Decifrar </button>
+        </div>
+
+        <div class="content" data-cifra>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
 
 
-  <div id="modal-desloc" class="modal-container"> 
-    <div class="modal"> 
+  <div id="modal-desloc" class="modal-container">
+    <div class="modal">
       <button class="fechar">x</button>
       <h3 class="subtitulo-modal"> Sobre </h3><br>
       <div>
         <p>
-          "Romeo e Julieta" é a história de amor mais famosa da dramaturgia mundial. E inspirada nela, "Saving Romeo & Juliet" busca ajudar casais apaixonados a trocarem mensagens criptografadas entre si, para desta forma evitar invasões indesejadas e espionagens nos apps de mensagens, garantido assim a privacidade na comunicação.
+          "Romeo e Julieta" é a história de amor mais famosa da dramaturgia mundial. E inspirada nela,
+          "Saving Romeo & Juliet" busca ajudar casais apaixonados a trocarem mensagens criptografadas entre si, para
+          desta forma evitar invasões indesejadas e espionagens nos apps de mensagens, garantido assim a privacidade
+          na comunicação.
 
         </p> <br>
         <p>Romeos & Julietas, Julietas & Julietas e Romeos & Romeos estarão salvos.
@@ -49,14 +62,19 @@
 
         <ul>
           <li> Combine um número secreto para cifrar. O mesmo número será a chave para decifrar.</li><br>
-          <li> Enviar a primeira palavra da mensagem com a quantidade de letras para o ciframento. Ex: Shakespeare (11 letras), chave número 11</li>
+          <li> Enviar a primeira palavra da mensagem com a quantidade de letras para o ciframento. Ex: Shakespeare (11
+            letras), chave número 11</li>
         </ul>
-        
+
       </div>
     </div>
   </div>
 
-  <footer>
+  <footer class="rodape">
+    <img src="img/1.png" alt="Logo diversidade" class="rodape__logo">
+    <ul>
+      <p class="rodape_apres"> Desenvolvido por <a href="https://github.com/caroAlvim" target="_blank">Carolina Alvim</a></p>
+    </ul>
     
   </footer>
 
