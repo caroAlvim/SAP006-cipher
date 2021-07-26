@@ -1,57 +1,60 @@
 /* css */
-* {
+*, 
+*:after,
+*:before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
+
+body{
+    background: #faf6f3; 
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 img{
-    width:900px;
-    height: 200px;
+    width:100%;
+    height: 100%;
     align-items: center;
 }
-body{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    background: #faf6f3; 
-    font: normal 20pt arial; 
+
+.titulo-principal{
+	padding-top: 10%;
 }
 
-header{
-    text-align: center;
+.flex-container{
+    padding: 1rem 2rem;
+
 }
 
-section{
-    width: 50%;
-    margin: auto;
-    text-align: center;
-
+.msg{
+    padding: 1rem 0rem;
 }
 
 .content{
     text-align: center;
     word-wrap: break-word;
-    height: 80px;
+    padding: 1rem;
 }
 
-.titulo-principal{
-	text-align: center;
-	font-size: 2em;
-	margin: 0 0 0em;
-	clear: left;
-}
 
 .form{
     text-align: center;
-    margin: 40px 0;
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: space-evenly;
 }
+
 
 .form-input{
     text-align: left;
     display: block;
-    font: normal 15pt arial;
-    margin: 0 0px 20px;
-	padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font: normal 18px;
+	padding: 1rem 2rem;
     width: 100%;
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(31, 29, 29, 0.185);
@@ -75,7 +78,7 @@ section{
 
 .info-button{
     padding: 15px 0;
-    width: 5%;
+    width: 8%;
     background: rgb(228, 191, 122);
     color: white; 
     font-weight: bold;
@@ -88,7 +91,7 @@ section{
 
 .form-button{
     align-items: center;
-    width: 40%;
+    width: 42%;
 	padding: 15px 0;
 	background: rgb(228, 191, 122);
 	color: white;
@@ -128,14 +131,15 @@ section{
 
 .modal{
     text-align: justify;
-    font: normal 15pt arial;
     background: white;
     width: 60%;
     min-width: 300px;
-    padding: 40px;
+    padding: 1rem;
     border: 10px solid #dbcbbe;
     box-shadow: 0 0 0 10px white;
     position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 }
 
 @keyframes modal{
@@ -166,4 +170,136 @@ section{
     cursor: pointer;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .3);
 }
+footer{
+    height: 15vh;
+}
 
+main{
+    height: 65vh;
+
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+
+    box-shadow: -4px -8px 6px -5px #777;
+	-moz-box-shadow: -4px -8px 6px -5px #777;
+	-webkit-box-shadow: -4px -6px 7px -5px #777;
+}
+
+
+.rodape__social {
+    display: flex;
+}
+
+.rodape__midia {
+    display: block;
+
+    width: 42px;
+    height: 42px;
+
+    margin: 2rem 1rem;
+}
+
+.rodape__logo{
+    padding: 0rem 0.5rem;
+    max-width: 5rem;
+}
+
+/* portrait tablet */
+@media (min-width: 768px) { 
+    /*aqui acrescentar as mudanças para acima de 700px / mudar o form, img */
+    main{
+        height: 70vh;
+    }
+    .titulo-principal{
+        padding: 1rem; 
+        margin-top: 1rem;
+    }
+
+    .flex-container{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .msg{
+        padding: 0rem 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-input{
+        padding: 2rem;
+    }
+
+    .content{
+        padding: 2rem;
+        font-size: 24px;
+    }
+
+    .modal{
+        text-align: justify;
+        background: white;
+        width: 60%;
+        min-width: 300px;
+        padding: 40px;
+        border: 10px solid #dbcbbe;
+        box-shadow: 0 0 0 10px white;
+        position: relative;
+        font-family: 'Montserrat', sans-serif;
+        font-size: initial;
+    }
+  
+}
+
+
+/* landscape and desktop */
+@media (min-width: 1024px) { 
+    .titulo-principal{
+        padding: 1rem 6rem;
+        
+    }
+
+    .flex-container{
+        padding: 0rem 10rem;
+        margin: 0rem 4rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .msg{
+        padding: 0rem 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-input{
+        padding: 2rem;
+    }
+
+    .content{
+        padding: 2rem;
+        font-size: 24px;
+    }
+
+    .modal{
+        text-align: justify;
+        background: white;
+        width: 60%;
+        min-width: 300px;
+        padding: 40px;
+        border: 10px solid #dbcbbe;
+        box-shadow: 0 0 0 10px white;
+        position: relative;
+        font-family: 'Montserrat', sans-serif;
+        font-size: initial;
+    }
+
+}
