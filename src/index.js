@@ -11,15 +11,12 @@ const cifraTexto = (e) => {
     //iniciaModal('modal-desloc');
 
     const fraseCifrada = document.querySelector('[data-cifra]');
-    //const printText = document.createElement('div');
-
     const conteudo = `<h3> Mensagem: </h3><br/>
                      <p>${cipher.encode(encodeNumber, valor)}</p><br/>
                      <p> Sua chave secreta é ${encodeNumber}</p>
                     `;
     
     fraseCifrada.innerHTML = conteudo;
-
     textoUsuario.value = "";
 
     
@@ -30,19 +27,17 @@ const decifrarTexto = (e) => {
 
     const decodeUsuario = document.querySelector('[data-form-input]');
     const valorDecode = decodeUsuario.value;
+
     const decodeNumber =  parseInt(prompt("Qual é a chave secreta?"));
     //colocar o modal dentro do desloc
     
 
     const fraseDecifrada = document.querySelector('[data-cifra]');
-    const printText = document.createElement('div')
     const conteudo = `<h3> Mensagem: </h3><br/>
                      <p>${cipher.decode(decodeNumber, valorDecode)}</p><br/>
                      `;
 
-    printText.innerHTML = conteudo;
-    fraseDecifrada.appendChild(printText)
-
+    fraseDecifrada.innerHTML = conteudo;
     decodeUsuario.value = "";
     
     //trocar o nome de todas as variaveis  e funcoes para ingles
@@ -67,14 +62,14 @@ const iniciaModal = (modalID) => {
     }); 
 };
 
-const copyText = () => {
-    const btnCopy = document.createElement('button')
+// const copyText = () => {
+//     const btnCopy = document.createElement('button')
 
-    btnCopy.addEventListener('click', () => {
-        console.log("funcionou")
-    })
-    return btnCopy
-};
+//     btnCopy.addEventListener('click', () => {
+//         console.log("funcionou")
+//     })
+//     return btnCopy
+// };
 
 /*
 const pegarOffset = (evento) => {
